@@ -1,6 +1,8 @@
 from google.cloud import bigquery
 import time
 
+import common
+
 # Construct a BigQuery client object.
 client = bigquery.Client()
 
